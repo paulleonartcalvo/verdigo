@@ -1,0 +1,14 @@
+{
+  "name": "verdigo",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "workspaces": [
+    "apps/gui/*"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
